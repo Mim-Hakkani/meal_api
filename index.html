@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Meal Database is Here</title>
+</head>
+<body>
+ 
+<div class="container mt-5">
+    <div class="row g-0">
+        <div class="col-md-2"></div>
+        <div class="col-md-7">
+            <input type="text" placeholder="Search the food ,," class="form-control" id="input-id">
+        </div>
+        <div class="col-md-3"> 
+            <button class="btn btn-info text-white" id="search-id" onclick="mealdb()">Search food</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div id="details">
+        
+    </div>
+</div>
+
+<!-- <div class="text-center" id="spiner" style="display:block;">
+  <div class="spinner-border" role="status"></div>
+</div> -->
+
+<div class="container-fluid">
+    <div class="row" id="card-images">     
+    </div>
+</div>
+
+<script src="meal.js"></script>
+</body>
+</html>
